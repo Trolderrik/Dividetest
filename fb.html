@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,11 +8,24 @@
     <meta name="author" content="">
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- FB kode -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/da_DK/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Styling -->
   
 	<style type="text/css">
+	#likebox-wrapper * {
+   width: 100% !important;
+}
       #container {
-    width: 80%;
-    max-width: 80%;
+    width: 60%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -21,7 +34,7 @@
 #header {
     position: fixed;
     z-index: 1;
-    width: 10%;
+    width: 20%;
     padding-top: 100px;
     text-align: right;
     right: 0;
@@ -29,7 +42,7 @@
 #headerleft {
     position: fixed;
     z-index: 1;
-    width: 10%;
+    width: 20%;
     padding-top: 100px;
     text-align: left;
     left: 0;
@@ -44,8 +57,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </header>    
     <header id="header">
-   <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fplatform&amp;width=300&amp;height=590&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:590px;" allowTransparency="true"></iframe>
-    </header>    
+   <div class="fb-like-box" data-href="https://www.facebook.com/Divide.dk" data-show-faces="true" data-stream="true" data-header="true"></div> </header>    
     <div id="maincontent">
         <div style="height:12580px;background:#333;"></div>
     </div>    
@@ -53,13 +65,5 @@
 </div>
 
 <!-- SCRIPTS -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/da_DK/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 </html>
