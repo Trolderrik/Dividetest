@@ -1,0 +1,98 @@
+commit 4c79a340ef3ad68b30578d1f10f0f729ba74c56e
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Wed May 1 20:19:39 2013 +0200
+
+    Bakery template lånt fra WebMatrix
+    
+    .CSHTML template til Divide?
+
+commit 4184bf5493d9def8705d32353d11ea6226246f61
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Wed May 1 20:00:09 2013 +0200
+
+    Ændring af index fil
+
+commit dd41904460fd32870bf62df79777a936a7bb33dd
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Wed May 1 18:29:14 2013 +0200
+
+    Knapper indsat (Uresponsivt)
+    
+    Ikke responsivt
+
+commit 9c66a3206c53c083614c1611e2ee0e35d5c6f3d2
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Wed May 1 18:26:16 2013 +0200
+
+    Tester responsivt CSS af FB frame
+    
+    test test
+
+commit 8d9661a384211dad4d224ac828e3d95370342adc
+Author: padydk <pady@live.dk>
+Date:   Wed May 1 19:59:33 2013 +0200
+
+    Tilføjet Visual Studio MVC Projekt
+
+commit cebf3a1c2bfa179762d779c2e986526846603198
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Wed May 1 17:40:46 2013 +0200
+
+    Test af sidebar
+    
+    Test af sidebar CSS
+
+commit 0daeedee12b3a7601e42d445d6fc2e8c49c75abe
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Mon Apr 29 16:38:57 2013 +0200
+
+    d til e
+    
+    d til e
+
+commit 877d591d36c21b06d428d347f30241b737a977bb
+Author: Pelle <pady@live.dk>
+Date:   Mon Apr 29 16:35:40 2013 +0200
+
+    update index
+    
+    c til d
+
+commit 7066c4ea27f6fa7138f816fbdd59170f8941c0cf
+Author: padydk <pady@live.dk>
+Date:   Mon Apr 29 17:29:41 2013 +0300
+
+    Update index.html
+    
+    ændrede b til c i starten
+
+commit f9b5a3f576c27513b7c9d5a7d18eb7fb9253b993
+Merge: b5bf066 a6bca43
+Author: Trolderrik <trosenqvist88@gmail.com>
+Date:   Mon Apr 29 07:21:10 2013 -0700
+
+    Merge pull request #1 from Trolderrik/Test
+    
+    1.0.0b
+
+commit a6bca431e04dda4ab406a4a9d43d74307fa5e945
+Author: Trolderrik <trosenqvist88@gmail.com>
+Date:   Mon Apr 29 17:09:27 2013 +0300
+
+    1.0.0b
+    
+    test af github
+
+commit b5bf0664b48c2fbab05c965e424ea2fa1fb3f12b
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Mon Apr 29 16:05:58 2013 +0200
+
+    Beta version 1.0.0
+    
+    Ingen rettelser andet end upload fra FTP til Git
+
+commit cb56cd302169d0129e03574d48066d670aa34b20
+Author: Thomas <trosenqvist88@gmail.com>
+Date:   Mon Apr 29 16:01:34 2013 +0200
+
+    Hello world

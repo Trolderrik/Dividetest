@@ -1,9 +1,11 @@
 ﻿@{
-    Page.Title = "Home";
+    Page.Title = "Spar energi med en gryde fra Divide";
 
-    var db = Database.Open("bakery");
-    var products = db.Query("SELECT * FROM PRODUCTS").ToList();
-    var featured = products[new Random().Next(products.Count)];
+    
+   
+   var db = Database.Open("bakery");
+   var products = db.Query("SELECT * FROM PRODUCTS").ToList();
+   var featured = products[new Random().Next(products.Count)];
 }
 
 <h1>Welcome to Fourth Coffee!</h1>
