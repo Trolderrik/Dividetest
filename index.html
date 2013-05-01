@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,77 +8,53 @@
     <meta name="author" content="">
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- FB kode -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/da_DK/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Styling -->
   
 	<style type="text/css">
-      body {
-        padding-top: 15px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-
-      @media (max-width: 980px) {
-        /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-          float: none;
-          padding-left: 5px;
-          padding-right: 5px;
-        }
-      }
+	#likebox-wrapper * {
+   width: 100% !important;
+}
+      #container {
+    width: 60%;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    min-height: 100%;
+}
+#header {
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+    padding-top: 100px;
+    text-align: right;
+    right: 0;
+}
+#headerleft {
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+    padding-top: 100px;
+    text-align: left;
+    left: 0;
+}
+#maincontent {
+    padding-right: 0px;
+    padding-top: 100px;
+}
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="favicon.png">
-  </head>
-    <!-- BOX TIL MENU-->
-   <style type="text/css">
- * html #ss-box{
- position: absolute;
- } 
- #ss-box{
- width: 70px;
- background:#ffffff;border:1px solid #dedede;border-radius:8px;-moz-border-radius:8px; -webkit-border-radius:8px;position:fixed;right:4%;
- top: 20%; 
- height:200px;
- height:auto;
- }
- #ss-box div{
- padding:6px 6px 4px 5px;
- }
- #icon_twitter,#icon_digg{
- margin-left:-2px;
- }
- #icon_linkedin{
- margin-left:-5px;
- }
- #sfs{
- margin-left:-5px;
- }
-  
- </style><br />
-<br />
-<div id="ss-box"><div id="ssl-box"><div><a href="http://divide.dk" target="_blank"> 
-  <img src="http://divide.dk/img/danish-flag.GIF" width="40" height="40" border="0"/><a href="http://divide.dk/en/" target="_blank"> 
-  <img src="http://divide.dk/img/english-flag.jpg" width="40" height="40" border="0"/>
-<a href="http://divide.dk/es/" target="_blank"><img src="http://divide.dk/img/spanish-flag.gif" width="40" height="40" border="0"/></div></div></div>
-
-
-  <body>
-      <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span2">
-		<a href="http://divide.dk/1" target="_blank">
+   <div id="container">   
+<header id="headerleft">
+       <a href="http://divide.dk/1" target="_blank">
  <img src="img/logo.png" />
 </a><img src="img/spacer.png" /><a href="http://divide.dk/2" target="_blank">
  <img src="img/buyButton.png" />
@@ -91,10 +67,11 @@
 </a><img src="img/spacer.png" />
 <a href="http://divide.dk/5" target="_blank">
  <img src="img/shareButton.png" />
-</a>
-         </div><!--/span-->
-		 <div class="row-fluid">
-		 
+</a> </header>    
+    <header id="header">
+   <div class="fb-like-box" data-href="https://www.facebook.com/Divide.dk" data-show-faces="true" data-stream="true" data-header="true"></div> </header>    
+    <div id="maincontent">
+	 <div class="row-fluid">
         <div class="span9">
           
             <img src="http://divide.dk/img/index/slider/sample-img/free-slider-img2.png" width="100%" alt="some_text"> 
@@ -145,23 +122,11 @@
       </footer>
 
     </div><!--/.fluid-container-->
+        <div style="height:12580px;background:#333;"></div>
+    </div>    
+    <div style="height:100px;background:#ccc;"></div>    
+</div>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
+<!-- SCRIPTS -->
 
-  </body>
 </html>
